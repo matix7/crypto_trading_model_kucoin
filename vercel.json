@@ -9,8 +9,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/dashboard/frontend/$1"
+      "dest": "/src/dashboard/frontend/$1"
     }
+  ]
+}
   ],
   "env": {
     "KUCOIN_API_KEY": "dummy_key",
