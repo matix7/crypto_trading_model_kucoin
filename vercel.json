@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/dashboard/frontend/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/dashboard/frontend/$1"
+    }
+  ],
+  "env": {
+    "KUCOIN_API_KEY": "dummy_key",
+    "KUCOIN_API_SECRET": "dummy_secret",
+    "KUCOIN_API_PASSPHRASE": "dummy_passphrase",
+    "USE_SANDBOX": "true",
+    "DB_PATH": "/tmp/trading.db",
+    "ENABLE_AUTHENTICATION": "true",
+    "SESSION_SECRET": "your_random_string_here",
+    "JWT_SECRET": "another_random_string_here",
+    "API_KEY": "your_api_key_here"
+  }
+}
