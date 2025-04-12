@@ -1,0 +1,19 @@
+{
+  "name": "crypto-trading-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "chart.js": "^3.7.1",
+    "react-chartjs-2": "^4.0.1",
+    "axios": "^0.26.1",
+    "swr": "^1.2.2"
+  }
+}
