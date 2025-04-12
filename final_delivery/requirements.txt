@@ -1,0 +1,56 @@
+# Requirements.txt
+
+# Data Processing
+pandas==2.0.0
+numpy==1.24.3
+scipy==1.10.1
+
+# API and Web
+fastapi==0.95.1
+uvicorn==0.22.0
+requests==2.29.0
+websockets==11.0.2
+python-dotenv==1.0.0
+pydantic==1.10.7
+httpx==0.24.0
+
+# Machine Learning
+tensorflow==2.12.0
+keras==2.12.0
+scikit-learn==1.2.2
+xgboost==1.7.5
+lightgbm==3.3.5
+
+# Technical Analysis
+ta-lib==0.4.26
+pandas-ta==0.3.14b0
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# Database
+sqlalchemy==2.0.9
+aiosqlite==0.18.0
+
+# Utilities
+tqdm==4.65.0
+joblib==1.2.0
+pytz==2023.3
+python-dateutil==2.8.2
+
+# Crypto Exchange API
+python-binance==1.0.17
+ccxt==3.0.72
+
+# Testing
+pytest==7.3.1
+pytest-asyncio==0.21.0
+
+# Sentiment Analysis
+nltk==3.8.1
+textblob==0.17.1
+transformers==4.28.1
+torch==2.0.0
+vaderSentiment==3.3.2
